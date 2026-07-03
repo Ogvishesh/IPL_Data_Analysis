@@ -16,6 +16,7 @@ The main objective of this project is to analyze IPL data and find:
 - Pandas
 - Matplotlib
 - Numpy
+- Streamlit
 
 ## Dataset
 This project uses IPL datasets:
@@ -40,6 +41,27 @@ Found batsmen who hit the maximum number of sixes.
 ### Win Percentage Analysis
 Calculated the winning percentage of IPL teams.
 
+### Streamlit Dashboard
+This project also includes an interactive streamlit dashboard for IPL data analysis.
+
+### Features
+- Top Run Scorers
+- Top wicket takers
+- Most sixes
+- Most fours
+- Winning teams
+- Win percentage analysis
+- Player search
+- Team statistics
+- Season filter
+- Interactive tables and graphs
+- Dashboard metrices
+
+## Run the Dashboard
+
+'''bash
+streamlit run app.py
+
 ## Project Structure
 
 IPL_Data_Analysis
@@ -47,6 +69,7 @@ IPL_Data_Analysis
 - Dataset
 - Output
 - src
+- App.py
 - README.md
 
 ## Output
